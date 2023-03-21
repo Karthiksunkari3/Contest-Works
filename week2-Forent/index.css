@@ -1,0 +1,113 @@
+nav{
+   display: flex;
+   gap: 20px;
+   padding: 10px 30px;
+   justify-content: space-between;
+}
+nav > h1{
+    color: white;
+}
+nav > div{
+    width: 80%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+nav input,nav button{
+    width: 10%;
+    background-color:  rgba(38, 38, 38, 1);
+    padding: 6px 10px;
+    border-radius: 10px;
+    
+}
+nav input{
+    flex-grow: 1;
+    color:rgba(255, 255, 255, 0.2);
+}
+nav button{
+    color: white;
+}
+.header-section{
+    background-color: rgba(38, 38, 38, 1);
+    padding: 20px;
+    margin: 20px 50px;
+    border-radius: 10px;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.small-img{
+    width: 50px;   
+}
+.large-img{
+    width: 150px;
+}
+.header-left > .item{
+    display: flex;
+    gap:30px;
+    margin: 10px 0;
+    align-items: center;
+}
+.header-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.header-right button{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #FECB03;
+    color: black;
+    align-self:center;
+}
+.categories{
+    margin: 20px 50px;
+    
+}
+.cards-container{
+    display: flex;
+    margin-top:20px ;
+    flex-flow: row wrap;
+    padding: 10px;
+    gap: 10px;
+}
+.card{
+    width: 30%;
+    color:rgba(255, 255, 255, 0.2);
+     border:2px solid rgba(38, 38, 38, 1) ;
+     margin-top:20px ;
+     position: relative;
+     padding: 5px;
+     border-radius: 5px;
+     padding-bottom:60px ;
+}
+.card > button{
+    background-color: #FECB03;
+    color: black;
+    position: absolute;
+    right: 7px;
+    bottom: 7px;
+    padding: 10px;
+    border-radius: 10px;
+}
+footer{
+    display: flex;
+    gap: 10px;
+    margin: 20px 50px;
+    justify-content: space-evenly;
+    background-color: rgba(38, 38, 38, 1);
+    padding: 20px;
+    border-radius: 10px;
+}
+footer > div{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+footer > div > a,footer p,footer h2{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+}
